@@ -22,6 +22,62 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2015 Daniel Eden
 */
 
+/* Custom */
+.page-header-title {
+  background-color: transparent;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 28px rgb(0 0 0 / 8%);
+  box-shadow: 0 0 28px rgb(0 0 0 / 8%);
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.title-page {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+a.breadcrumb-item-title {
+  color: #000;
+}
+
+.font-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.for-icon-page {
+  background: #fd6400;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  box-shadow: 2px 2px 8px #fd6400;
+}
+
+.line-page {
+  height: 1.5px;
+  margin: 0px 0px 15px 0px;
+  background: #444e66;
+  box-shadow: 2px 3px 4px rgb(0 0 0 / 52%);
+}
+
+.aksi-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aksi-table .btn.aksi {
+  margin-left: 2px;
+}
+
+/* End Custom */
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -381,7 +437,7 @@ Copyright (c) 2015 Daniel Eden
   font-weight: 600;
   font-size: 0.8571em;
   line-height: 1.35em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   border: none;
   margin: 10px 1px;
   border-radius: 3px;
@@ -4433,7 +4489,7 @@ License - nucleoapp.com/license/
 }
 
 .table .btn {
-  margin: 0;
+  /* margin: 0; */
 }
 
 .table small,
@@ -5510,8 +5566,8 @@ License - nucleoapp.com/license/
 }
 
 .card .card-header {
-  padding: 5px 15px 0;
-  border: 0;
+  padding: 10px 20px 10px;
+  border: 1;
 }
 
 .card .card-header:not([data-background-color]) {

@@ -51,10 +51,10 @@ if ($role == 'admin') {
   $loginArea = login($data);
 
   if ($loginArea == 2) {
-    echo '<script>alert("Hai, ' . $fname . '. kamu berhasil login");location.href = "index.php"</script>';
+    echo '<script>alert("Hai, ' . $fname . '. you have successfully logged in!");location.href = "index.php"</script>';
   } else if ($loginArea == 1) {
-    echo '<script>alert("Gagal Login");window.history.go(-1);</script>';
+    echo '<script>alert("Failed Login!");window.history.go(-1);</script>';
   }
 } else {
-  echo '<script>alert("Gagal Login, Anda tidak memiliki akses");window.history.go(-1);</script>';
+  echo '<script>alert("Failed Login, You dont have access!");window.history.go(-1);</script>';
 }
