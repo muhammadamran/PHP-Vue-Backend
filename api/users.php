@@ -11,7 +11,10 @@ while ($row = $users->fetch_assoc()) {
         'lname' => $row['lname'],
         'gender' => $row['gender'],
         'username' => $row['username'],
-        'password' => $row['password']
+        'password' => $row['password'],
+        'email' => $row['email'],
+        'role' => $row['role'],
+        'expired_date' => $row['expired_date'],
     ];
 }
 header("Access-Control-Allow-Origin: *");
