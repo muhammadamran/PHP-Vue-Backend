@@ -34,6 +34,15 @@
   <link href="assets/plugins/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" />
   <!-- ================== END PAGE LEVEL STYLE ================== -->
 </head>
+<style>
+  body {
+    color: #2c2c2c;
+    font-size: 14px;
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+</style>
 
 <body class="">
   <div class="wrapper ">
